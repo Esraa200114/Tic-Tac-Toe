@@ -1,0 +1,124 @@
+/* Font Definitions */
+@font-face {
+    font-family: "Outfit";
+    src: url("../fonts/Outfit-Bold.ttf");
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: "ProtestRiot";
+    src: url("../fonts/ProtestRiot-Regular.ttf");
+    font-weight: 400; 
+}
+
+/* Reset Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    height: 100vh; 
+    overflow: hidden; 
+    background-color: white;
+}
+
+/* Heading Styles */
+h1,
+h2 {
+    font-family: "Outfit", sans-serif; 
+    color: black; 
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+/* Additional Styles */
+.versus {
+    font-family: "ProtestRiot", sans-serif;
+}
+
+/* Button Styles */
+.start-game-btn {
+    font-family: "Outfit", sans-serif; 
+    background-color: white; 
+    color: black; 
+    border-radius: 5px; 
+    font-size: large;
+    border: 1px solid black;
+}
+
+/* Button Hover Effect */
+.start-game-btn:hover {
+    background-color: black; 
+    color: white; 
+    border: 1px solid black;
+}
+
+/* Score Section Styles */
+.player-X-score-section, 
+.draw-score-section, 
+.player-O-score-section, 
+.current-player {
+    font-family: "Outfit", sans-serif;
+    font-size: large;
+}
+
+/* Message Styles */
+.info-section {
+    height: 30px;
+}
+
+.message {
+    font-family: "Outfit", sans-serif;
+    font-size: medium;
+    color: #d1ccc0;
+    visibility: hidden;
+}
+
+/* Grid Item Styles */
+.tile{
+    background-color: white;
+    border: 1px solid #d1ccc0;
+    border-radius: 2px;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.875rem;
+    color: white;
+    height: 80px;
+}
+
+.none:hover {
+    background-color: #d1ccc0;
+    color: #d1ccc0;
+    cursor: pointer;
+}
+
+/* Play Again Button Styles */
+.play-again-btn {
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Outfit", sans-serif;
+    font-size: large;
+    visibility: hidden;
+}
+
+.play-again-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Text Color Classes */
+.red {
+    color: #EA2027; 
+}
+
+.blue {
+    color: #25CCF7; 
+}
